@@ -1,31 +1,32 @@
-# Super Trunfo - Nível Aventureiro 
+# 🃏 Super Trunfo - Nível Aventureiro 🎮
+Repositório: **desafio-l-gica-super-trunfo-Biankrvalho**
 
 Projeto desenvolvido para o desafio **Nível Aventureiro** da disciplina de Lógica de Programação em C.  
-O objetivo é implementar um jogo **interativo no terminal** que compara atributos de duas cartas utilizando **estruturas condicionais** e **menu com `switch`**.
+O objetivo é implementar um jogo **interativo no terminal** que compara atributos de duas cartas utilizando **estruturas condicionais (`if/else`)** e um **menu com `switch`**.
 
 ---
 
-## Descrição do Projeto
+## 🧠 Descrição do Projeto
 
-Este projeto é uma evolução do desafio anterior (Nível Novato), agora com **interatividade**.  
-O jogador pode escolher o atributo de comparação entre duas cartas de cidades reais — **São Paulo** e **Rio de Janeiro**.
+Este projeto é a continuação do nível anterior (Nível Novato).  
+Agora, o jogador pode **interagir** com o programa, escolhendo o atributo de comparação entre duas cartas de **cidades reais: São Paulo e Rio de Janeiro**.
 
-O sistema exibe um menu com os atributos disponíveis e determina qual carta vence conforme a regra definida.
+O menu é exibido no terminal, e a lógica determina qual carta vence com base no atributo selecionado.
 
 ---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
-✅ Menu interativo no terminal  
-✅ Cálculo de **Densidade Demográfica** e **PIB per Capita**  
-✅ Comparação entre duas cartas  
+✅ Menu interativo com `switch`  
+✅ Cálculo automático de **Densidade Demográfica** e **PIB per Capita**  
+✅ Comparação de atributos numéricos  
 ✅ **Desempate aninhado** por pontos turísticos  
-✅ Exibição clara dos resultados  
-✅ Tratamento para entrada inválida no menu  
+✅ Tratamento para entradas inválidas  
+✅ Interface simples e intuitiva no terminal  
 
 ---
 
-## Atributos disponíveis para comparação
+## 📋 Atributos disponíveis para comparação
 
 | Código | Atributo              | Regra de Vitória         |
 |:------:|:----------------------|:--------------------------|
@@ -39,7 +40,7 @@ O sistema exibe um menu com os atributos disponíveis e determina qual carta ven
 
 ---
 
-## Cartas Cadastradas
+## 🏙️ Cartas cadastradas
 
 ### Carta 1 — São Paulo (SP)
 - Código: A1  
@@ -61,7 +62,7 @@ O sistema exibe um menu com os atributos disponíveis e determina qual carta ven
 
 ---
 
-## Regras de Comparação
+## 🧮 Regras de Comparação
 
 - **Regra geral:** vence a carta com o **maior valor** no atributo escolhido.  
 - **Exceção:** para **Densidade Demográfica**, **vence o menor valor**.  
@@ -70,9 +71,10 @@ O sistema exibe um menu com os atributos disponíveis e determina qual carta ven
 
 ---
 
-## Como compilar e executar
+## 🧑‍💻 Como compilar e executar
 
-### Compilação
-No terminal, digite:
+### 💻 Compilação
+No terminal, dentro do seu repositório:
 ```bash
-gcc -Wall -Wextra -O2 supertrunfo_aventureiro.c -o supertrunfo
+gcc -Wall -Wextra -O2 logicaSuperTrunfo.c -o supertrunfo
+
