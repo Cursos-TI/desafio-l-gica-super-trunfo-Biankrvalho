@@ -70,9 +70,9 @@ O sistema exibe um menu com os atributos disponíveis e determina qual carta ven
 
 ---
 
-## 🧑‍💻 Como compilar e executar
+## Como compilar e executar
 
-### 💻 Compilação
+### Compilação
 No terminal, digite:
 ```bash
 gcc -Wall -Wextra -O2 supertrunfo_aventureiro.c -o supertrunfo
